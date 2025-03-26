@@ -57,8 +57,7 @@ python manage.py runserver
 - `POST /api/tasks/`: Create a new task
 - `GET /api/tasks/`: List all tasks
 - `GET /api/tasks/{id}/`: Retrieve a specific task
-- `GET /api/tasks/user_tasks/?user_id=<id>`: Get tasks for a specific user
-- `PATCH /api/tasks/{id}/complete_task/`: Mark a task as completed
+- `GET /api/tasks/retrieve-by-user/?user_id=<id>`: Get tasks for a specific user
 
 ## Testing
 Run tests using:
